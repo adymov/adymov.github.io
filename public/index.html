@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="css/styles.css"><script>function s4(){return(((1 + Math.random())*0x10000)|0).toString(16).substring(1);}
+
+      var trsfLoadData = {
+          custom_data: {'KPP_PO': '444444241', 'INNC': '0', 'PAY_TYPE': '5', 'BIK': '11111111111', 'PAY_DESTINATION': 'Лицевой счет: 12345678', 'PAY_NAME': 'ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "Noname"', 'PAY_BANKACCOUNT': '16515165416561615', 'NDS': '0', 'PAY_INN': '000000000', 'PAY_ACCOUNT': '111111111111', 'PAY_BANKNAME': 'ФИЛИАЛ N'},
+          host: "",
+          request_url: "",
+
+          api_key: "",
+          txId: "110911",
+          backUrl: "",
+          amount: "120.00",
+          provider_name: "Компания &#34;Noname&#34;",
+
+          account_type: "mobile_phone",
+          mobile_phone: "79031111111",
+          email: "",
+          description: "Лицевой счет: 12345678",
+          success_redirect: "",
+          fail_redirect: "",
+
+          rebill_info: "",
+          rebill_amount: "",
+          rebill_period: "",
+          rebill_end: "",
+
+          date_day: "09",
+          date_month: "06",
+          date_year: "2017",
+          merchant_name: "PAYMENT PROVIDER",
+          have_commission: "1",
+          transaction_exist: "0",
+          phone_disable: "0",
+          allow_bind_card: "",
+          error: "",
+
+          transaction: "800000",
+          merchandise: "Оплата по счету № 800000",
+    };</script><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta name="format-detection" content="telephone=yes"></head><body><div class="page page--confirm"><div class="header header--confirm"><div class="header__logo-left"><img src="image/logo-mini.svg" alt="logo"></div><div class="popup-info"><div class="popup-info__title">Компания &#34;Noname&#34;</div><div class="popup-info__count">Лицевой счет: 12345678</div><div class="popup-info__price"><span class="popup-info__caption">Сумма к зачислению</span> <span class="popup-info__number"></span></div><div class="popup-info__price-commission"><span class="popup-info__caption">Спишется с карты</span> <span class="popup-info__number"></span></div></div><div class="header__logo-right"><img src="image/minbank.svg" alt="logo"></div></div><div class="stepper stepper--confirm"><div class="stepper__wrapper"><a href="" class="stepper__name">Ввод данных</a> <span class="stepper__name stepper__name--active">Оплата счета</span> <span class="stepper__name stepper__name--disable">Подтверждение</span> <span class="stepper__name stepper__name--disable">Квитанция</span></div></div><div class="confirm-card"><div class="confirm-form__wrapper confirm-form__wrapper--in-progress"><div class="confirm-card__menu confirm-card__menu--off"><span class="confirm-card__item confirm-card__item--user-card confirm-card__item--off">Мои карты</span> <span class="confirm-card__item confirm-card__item--add-new confirm-card__item--active">Новая карта</span></div><div class="confirm-card__large-container"><div class="confirm-card__grid confirm-card__grid--off"><div class="confirm-card__column"></div></div><div class="confirm-card__single-card"><div class="card card--front card--off" data-type="none"><div class="card__logo-bank"><!--<img src="/" alt="logo">--></div><div class="card__input"><span class="card__title">Номер</span> <input class="card__field card__field--number -metrika-nokeys" type="text" name="pancode" value="" data-type="pancode" autocomplete="off" placeholder="0000 0000 0000 0000"><div class="card__error"><span>Эта карта не поддерживается</span></div></div><div class="card__input"><span class="card__title">Valid thru</span> <input class="card__field card__field--date -metrika-nokeys" type="text" name="date" value="" autocomplete="off" data-type="date" placeholder="ММ / ГГ"><div class="card__error card__error--bottom"><span>Эта карта не поддерживается</span></div></div><div class="card__provider_wrapper"><img data-provider="mastercard" class="card__provider" src="image/m-c.svg" alt=""> <img data-provider="maestro" class="card__provider" src="image/maestro.svg" alt=""> <img data-provider="visa" class="card__provider" src="image/visa-blue.svg" alt=""></div></div><div class="card card--back card--off"><div class="card__magnet"></div><div class="card__input card__input--cvv"><span class="card__title">CVC/CVV</span> <span class="card__hint card__hint--prefix">1234</span> <input class="card__field card__field--ccv -metrika-nokeys" autocomplete="off" type="tel" name="code" value="" data-type="ccv" placeholder=""></div><br><span class="confirm-form__hint confirm-form__hint--back-card confirm-form__hint--off">3 последние цифры<br>на оборотной стороне</span></div><span class="confirm-form__hint confirm-form__hint--off">Данные передаются зашифрованными</span><div class="card__code-confirm"><span class="card__confirm-title">Код подтверждения</span><!-- <span class="card__confirm-message">Мы отправили смс на номер {{ phone }}</span> --> <span class="card__confirm-message">Мы отправили смс на номер +7 903 111-11-11</span> <input class="card__field card__field--code -metrika-nokeys" type="tel" name="code" value="" autocomplete="off" placeholder="0000"> <input class="confirm-blue confirm-blue--code-submit" id="btnCodeSubmit" type="button" value="Отправить"> <span class="confirm-form__code-error confirm-form__code-error--off">Неверный код из СМС</span></div></div></div></div><label for="checkAgree" class="confirm-form__label"><input id="checkAgree" type="checkbox" class="confirm-form__agree" name="agree" value="agree"> <span class="confirm-form__check"></span> Я согласен с <a class="confirm-form__link" href="#">условиями использования</a> сервиса</label><input class="confirm-blue confirm-blue--disabled" type="submit" value="Оплатить" id="btnPayment" readonly="readonly"></div><div class="footer"><span class="footer__copyrights">&copy; 2017 Noname Company Ltd.</span><div class="footer__verifiedby"><img class="footer__payment-icon" src="image/m-c-secure-code.svg" alt=""> <img class="footer__payment-icon" src="image/thawte.svg" alt=""> <img class="footer__payment-icon" src="image/pci.svg" alt=""> <img class="footer__payment-icon" src="image/visa.svg" alt=""></div></div></div><form action="/" id="requestHidden" method="POST"><input type="hidden" name="MD"> <input type="hidden" name="PaReq"> <input type="hidden" name="TermUrl"></form><script type="text/javascript" src="js/bundle.js"></script></body></html>
