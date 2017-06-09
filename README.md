@@ -1,1 +1,0 @@
-# adymov.github.io
